@@ -16,12 +16,14 @@
 <!-- particles.js container -->
 <div id="particles-js">
 	<div id="booker">
-	<font color="white"><center><strong><h1 class="glitch">BookerDev</h1></strong></center>
-	<a href="https://github.com/BookerDev"><img src="http://i.imgur.com/pVbNxY1.png" alt="GitHub" height="128" width="128"></a>&nbsp;
-	<a href="pricelist.html"><img src="http://i.imgur.com/WUPieLV.png" alt="Price list" height="128" width="128"></a>&nbsp;
-	<a href="https://goo.gl/u4Sz16"><img src="http://i.imgur.com/WmysXiL.png" alt="YouTube" height="128" width="128"></a>&nbsp;
-	<a href="plugins.html"><img src="http://i.imgur.com/aLgNWDC.png" alt="Plugins" height="128" width="128"></a>
-	<h2>Copyright &copy; 2017 BookerDev</h2><h3>Mail: bookerdev.yt@gmail.com<br>Skype: bookerdev.yt</h3></font>
+	<canvas id="stage"></canvas>
+		<div style="position: relative; z-index: 2;">
+		<a href="https://github.com/BookerDev"><img src="http://i.imgur.com/pVbNxY1.png" alt="GitHub" height="128" width="128"></a>&nbsp;
+		<a href="pricelist.html"><img src="http://i.imgur.com/WUPieLV.png" alt="Price list" height="128" width="128"></a>&nbsp;
+		<a href="https://goo.gl/u4Sz16"><img src="http://i.imgur.com/WmysXiL.png" alt="YouTube" height="128" width="128"></a>&nbsp;
+		<a href="plugins.html"><img src="http://i.imgur.com/aLgNWDC.png" alt="Plugins" height="128" width="128"></a>
+		<h2>Copyright &copy; 2017 BookerDev</h2><h3>Mail: bookerdev.yt@gmail.com<br>Skype: bookerdev.yt</h3></font>
+		</div>
 	</div>
 </div>
  
@@ -50,4 +52,6 @@
   requestAnimationFrame(update);
 </script>
 </body>
+<script src="dat.gui.min.js"></script>
+<script src="resist.js"></script>
 </html>
