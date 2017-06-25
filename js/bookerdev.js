@@ -38,7 +38,7 @@
       this.amplitude = 0.0;
       this.amplitudeBase = 2.0;
       this.amplitudeRange = 2.0;
-      this.alphaMin = 0.8;
+      this.alphaMin = 1.0;
 
       this.glitchAmplitude = 20.0;
       this.glitchThreshold = 0.9;
