@@ -59,7 +59,7 @@ $(document).ready(function(){
 			return futureFormattedDate
 		}
 		$("#countdown").countdown({
-			date: "03 August 2017 23:59:59", //data do edycji
+			date: "15 August 2017 23:59:59", //data do edycji
 			format: "on"
 		});
 	});
