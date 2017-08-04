@@ -32,7 +32,7 @@ $(document).ready(function(){
 					thisEl.find(".seconds").text(seconds)
 				}
         else{
-          errorMessage = "Invalid date. Example: 27 March 2015 17:00:00";
+          errorMessage = "Bledny format daty!";
 					alert(errorMessage);
 					console.log(errorMessage);
 					clearInterval(interval)
